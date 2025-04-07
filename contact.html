@@ -136,5 +136,33 @@
         </form>
     </div>
     </div>
+<script>
+  const form = document.querySelector("form");
+
+  form.addEventListener("submit", async function (e) {
+    e.preventDefault(); // prevent default form submission
+
+    const formData = new FormData(form);
+
+    // Send the form data using Formspree's endpoint
+    const response = await fetch(form.action, {
+      method: form.method,
+      body: formData,
+      headers: {
+        'Accept': 'application/json'
+      }
+    });
+
+    if (response.ok) {
+      alert("Form has been submitted successfully!");
+      form.reset(); // clear the form fields
+      window.location.href = "index.html"; // redirect
+    } else {
+      alert("There was an error submitting the form. Please try again.");
+    }
+  });
+</script>
+
+    
 </body>
 </html>
