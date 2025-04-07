@@ -39,9 +39,9 @@ This project demonstrates how to **structure a multi-page website using only HTM
 
 ---
 
-## ✨ What You’ll Learn
+## ✨ What I Learnt
 
-By completing this project, you'll gain a solid understanding of:
+By completing this project, I gained a solid understanding of:
 
 - Structuring a website using semantic HTML  
 - Creating **multiple interlinked pages**  
@@ -63,7 +63,7 @@ By completing this project, you'll gain a solid understanding of:
 ## 🌐 Live Demo
 Check out the live version of this basic HTML website hosted on GitHub Pages:
 
-[! pages-link] (🔗 https://your-username.github.io/your-repo-name)
+🔗 [Click here to see the website](https://atharvamirajkar.github.io/Basic-HTML-Website/index.html)
 
 > 💡 Note: The contact form is functional — users can enter and submit the form it'll send me a message on my email.
 >
@@ -75,3 +75,5 @@ The contact form uses Formspree to allow visitors to submit their message direct
 
 
 ---
+
+## Thank You ❤️
